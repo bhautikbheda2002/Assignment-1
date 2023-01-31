@@ -1,0 +1,148 @@
+.container{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+}
+#image{
+    margin-top: 72px;
+    margin-bottom: 72px;
+    box-shadow: 0px 4px 31px #0000000A;
+    border: 20px solid #FFFFFF;
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+}
+#header{
+    margin-top: 100px;
+    margin-left: 70px;
+    height: 70px;
+}
+#text2{
+    margin-top: 30px;
+    font-size: 28px;
+    margin-left: 70px;
+}
+#experts{
+    color: #C8242F;
+}
+#text4{
+    color: #706b6b;
+    font-size: 25px;
+    margin-left: 70px;
+}
+.form{
+    font-size: 20px;
+    color: #706b6b;
+    max-width: 100%;
+    margin-left: 70px;
+}
+#username{
+    max-width: 100%;
+    width: 400px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+}
+#password{
+    max-width: 100%;
+    width: 400px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+}
+#btn{
+    color :#FAFAFA;
+    background: #C8242F;
+    border-radius: 23px;
+    width: 138px;
+    height: 45px;
+}
+#forgot{
+    font: normal normal normal 15px Roboto;
+    color: #ADADAD;
+    text-align: right;
+    margin-top: -20px;
+    
+}
+.register{
+    display: flex;
+}
+#pera{
+    color: #ADADAD;
+    margin-left: 70px;
+}
+#reg{
+    color: #C8242F;
+}
+a:link{
+    text-decoration: none;
+}
+
+
+
+@media(max-width:575px){
+    #header{
+        height: 38px;
+        margin-top: 10px;
+    }
+}
+@media(max-width:575px){
+    #forgot{
+        margin-top: -30px;
+    }
+}
+@media(max-width:575px){
+    .container{
+        margin-top: 00px;
+        margin-bottom: 00px;
+    }
+}
+@media(max-width:575px){
+    #header,#text2,#text4,.form,#pera{
+        margin-left: 10px;
+    }
+    #image{
+        margin-left: 00px;
+    }
+}
+@media(max-width:991px){
+    #header{
+        height: 45px;
+    }
+    #pera2{font-size: 35px;}
+    #header,#text2,#text4,.form,#pera{
+        margin-left: 10px;
+    }
+    #image{
+        margin-left: 00px;
+    }
+    .container{
+        margin-top: 00px;
+    }
+}
+
+
+
+@media(min-width:576px) {
+    #username{
+        max-width: 100%;
+        width: 600px;
+        height: 50px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #ADADAD;
+        border-radius: 5px;
+    }
+    #password{
+        max-width: 100%;
+        width: 600px;
+        height: 50px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #ADADAD;
+        border-radius: 5px;
+    }
+}
+@media(min-width:576px){
+    #text2{
+        font-size: 45px;
+    }
+}

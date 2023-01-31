@@ -1,0 +1,424 @@
+#menu {
+    position: absolute;
+    top: 30px;
+    left: 29px;
+    width: 30px;
+    height: 27px;
+}
+
+#logo {
+    position: absolute;
+    width: 142px;
+    height: 30px;
+    top: 25px;
+    left: 72px;
+}
+
+#search {
+    position: absolute;
+    top: 32px;
+    left: 291px;
+    width: 16px;
+    height: 20px;
+}
+
+#searchtext {
+    top: 28px;
+    left: 321px;
+    width: 49px;
+    height: 21px;
+    position: absolute;
+    margin-top: 5px;
+}
+
+#bell {
+    position: absolute;
+    top: 28px;
+    left: 1294px;
+    width: 22px;
+    height: 21px;
+}
+
+#profilepic {
+    top: 18px;
+    left: 1368px;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+}
+
+#johndoe {
+    position: absolute;
+    top: 17px;
+    left: 1424px;
+    width: 68px;
+    height: 21px;
+
+}
+
+#arrow {
+    top: 4px;
+    left: 1507px;
+    width: 20px;
+    height: 80px;
+    position: absolute;
+}
+
+.header {
+    position: absolute;
+}
+
+.img {
+    padding-top: 20px;
+    height: 15px;
+    width: 15px;
+}
+
+.side-item {
+    width: 80%;
+    display: flex;
+}
+
+.side-item p {
+    padding-left: 15px;
+}
+
+.sidebar {
+    padding-left: 35px;
+    padding-top: 100px;
+    width: 15%;
+    position:absolute;
+}
+.container{
+    display: flex;
+}
+.rightbar{
+    position: absolute;
+    background-color:  #FAFAFA;
+    height: 1800px;
+    width: 1345px;
+    margin-left: 219px;
+    margin-top: 82px
+}
+#analysis{
+    top: 36px;
+    left: 47px;
+    width: 146px;
+    height: 39px;
+position: absolute;
+}
+.main{
+    top: 92px;
+    left: 41px;
+width: 1218px;
+height: 1749px;
+position: absolute;
+background-color: white;
+
+}
+.one{
+    position: absolute;
+    top: 15px;
+left: 25px;
+width: 121px;
+height: 35px;
+}
+#name{
+   
+width: 1157px;
+height: 49px;
+
+border: 1px solid #ADADAD;
+border-radius: 5px;
+opacity: 1;
+
+
+}
+
+
+.formone{
+    display: flex;
+    flex-direction: column;
+    margin-top: 67px;
+    width: 400px;
+
+    margin-left: 40px;
+}
+form input{
+    margin-bottom: 30px;
+    margin-bottom: 30px;
+   
+}
+form select{
+    margin-bottom: 30px;
+
+}
+#textarea{
+    width: 1157px;
+height: 130px;
+border: 1px solid #ADADAD;
+border-radius: 5px;
+opacity: 1;
+}
+.two{
+  margin-left: -7px;
+  margin-top: 30px;
+}
+#name1{
+    width: 563px;
+height: 49px;
+border: 1px solid #ADADAD;
+border-radius: 5px;
+opacity: 1;
+}
+.fmain{
+    display: flex;
+    width: 1157px;
+    gap: 30px;
+}
+#uname1{
+    width: 564px;
+height: 47px;
+
+border: 1px solid #ADADAD;
+border-radius: 5px;
+opacity: 1;
+}
+#password{
+    width: 563px;
+height: 49px;
+
+border: 1px solid #ADADAD;
+border-radius: 5px;
+opacity: 1;
+margin-top: -14px;
+}
+#dropdown{
+    width: 563px;
+height: 49px;
+
+border: 1px solid #ADADAD;
+border-radius: 5px;
+opacity: 1;
+margin-top: -14px;
+}
+.f3{
+    display: flex;
+    width: 1157px;
+    gap: 30px;
+}
+#focus{
+    width: 364px;
+height: 47px;
+border: 1px solid #C8242F;
+border-radius: 5px;
+opacity: 1;
+
+}
+#pas{
+    width: 365px;
+height: 49px;
+border: 1px solid #ADADAD;
+border-radius: 5px;
+opacity: 1;
+}
+#disable{
+    width: 365px;
+height: 47px;
+border: 1px dashed #ADADAD;
+border-radius: 5px;
+opacity: 1;
+}
+#ui{
+    width: 266px;
+height: 47px;
+border: 1px solid #FF3C3C;
+border-radius: 5px;
+opacity: 1;
+}
+#f4name{
+    width: 266px;
+height: 49px;
+
+border: 1px solid #ADADAD;
+border-radius: 5px;
+opacity: 1;
+
+}
+#fuplode{
+    margin-top: -15px;
+}
+#uplodemain{
+    display: flex;
+}
+#buplode{
+    width: 124px;
+height: 36px;
+border: 1px solid #C8242F;
+border-radius: 18px;
+opacity: 1;
+}
+#puplode{
+    width: 91px;
+height: 16px;
+text-align: left;
+font: normal normal normal 12px/16px Roboto;
+letter-spacing: 0px;
+color: #ADADAD;
+opacity: 1;
+margin-left: 19px;
+}
+#spanuplode{
+    color: #C8242F;
+    margin-top: 0px;
+    text-align: center;
+}
+#uimg{
+    margin-top: 0px;
+}
+#option2{
+    margin-left: 40px;
+}
+#sp1{
+    width: 563px;
+height: 44px;
+border: 1px solid #FF3535;
+border-radius: 5px;
+opacity: 1;
+}
+#snamain{
+    display: flex;
+    gap: 30px;
+}
+#error{
+    height: 30px;
+    width: 43px;
+    margin-top: 6px;
+}
+#errormessage{
+    color: #FF3535;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
+}
+#sp2{
+    width: 563px;
+    height: 44px;
+    border: 1px solid #00B9E1;
+    border-radius: 5px;
+    opacity: 1;
+    }
+    #infomessage{
+        color: #00B9E1;
+        margin-left: 10px;
+        margin-top: 10px;
+        position: absolute;
+    }
+    #sp3{
+        width: 563px;
+        height: 44px;
+        border: 1px solid #FFA800;
+        border-radius: 5px;
+        opacity: 1;
+        }
+    #warningmessage{
+            color: #FFA800;
+            margin-left: 10px;
+            margin-top: 10px;
+            position: absolute;
+        }
+        #sp4{
+            width: 563px;
+            height: 44px;
+            border: 1px solid #00AF27;
+            border-radius: 5px;
+            opacity: 1;
+            }
+        #successmessage{
+                color: #00AF27;
+                margin-left: 10px;
+                margin-top: 10px;
+                position: absolute;
+            }
+ #buttonmain{
+    display: flex;
+    gap: 30px;
+ }
+ #primary{
+    width: 124px;
+    height: 45px;
+    background: #C8242F 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    opacity: 1;
+ }
+ #secondory{
+    width: 145px;
+height: 44px;
+border: 1px solid #C8242F;
+border-radius: 22px;
+opacity: 1;
+ }          
+ #ptext{
+    width: 63px;
+height: 24px;
+text-align: left;
+font: normal normal medium 18px/24px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+
+ }
+ #stext{
+    width: 63px;
+height: 24px;
+text-align: left;
+font: normal normal medium 18px/24px Roboto;
+letter-spacing: 0px;
+color: #C8242F;
+opacity: 1;
+
+ }
+ #tab{
+    display: flex;
+    gap: 30px;
+ }
+ #tab1{
+    color: #C8242F;
+    
+ }
+ #tab2{
+    color: #ADADAD;
+ }
+ #tab3{
+    color: #ADADAD;
+ }
+ #redunderline{
+    width: 69px;
+height: 0px;
+
+border: 3px solid #C8242F;
+opacity: 1;
+ }
+ #greyunderline{
+    width: 1100px;
+height: 0px;
+
+border: 1px solid black;
+opacity: 1;
+
+ }
+ #underline{
+    display: flex;
+    width: 1400px;
+ }
+ #loremtext{
+    width: 1119px;
+ }
+ 
+ @media(max-width:576px){
+    .sidebar{
+      display: none;
+      width: 150px;
+  height: 20px;
+    }
+  }
