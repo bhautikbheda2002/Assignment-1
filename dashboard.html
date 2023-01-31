@@ -1,61 +1,217 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
-    <link rel="stylesheet" href="css\dashboard.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+
 </head>
+
 <body>
-    <div class="content">
-        <div class="header">
-            <a><img src="images\menu-bar.svg" alt="menu-bar" class="menu-bar"></a>
-            <a><img src="images\logo.svg" alt="logo" class="logo1"></a>
-            <a><img src="images\search-icon.svg" alt="search-icon" class="search-icon"></a>
-            <a href="#default" class="search">search</a>
-            <div class="header-right">
-              <a><img src="images\notification-icon.svg" alt="notification-icon" class="notification-icon"></a>
-              <a><img src="images\profile.png" alt="profile" class="profile"></a>
-              <a href="#contact">John Doe</a>
-              <a><img src="images/downward-arrow.svg" alt="downward-arrow" class="downward-arrow"></a>
-            </div>
-        </div>
 
-        <div class="dashboard"><b>Dashboard</b></div>
-        
-        <div class="a">
-            <a><img src="images\star.svg" alt="menu-bar" class="icon"></a>
-        </div>
-
-        <div class="b">
-            <a><img src="images/new-product.svg" alt="menu-bar" class="icon"></a>
-        </div>
-
-        <div class="c">
-            <a><img src="images/total-product.svg" alt="menu-bar" class="cicon" ></a>
-        </div>
-    
-        <div class="d">
-            <a><img src="images/dollar-filled.svg" alt="menu-bar" class="icon"></a>
-        </div>
-        
-        <div class="e">
-            <a><img src="images/money-bag.svg" alt="menu-bar" class="icon"></a>
-        </div>
-
-      
-
-    <div class="sidebar">
-       
-        <a href="#dashboard"><img src="images/dashboard-active.svg" alt="search-icon" class="search-icon">   Dashboard</a>
-        <a href="#analysis"><img src="images/total-product.svg" alt="logo" class="search-icon">   Analysis</a>
-        <a href="#inbox"><img src="images/inbox-default.svg" alt="logo" class="search-icon">   Inbox</a>
-        <a href="#history"><img src="images/clock-default.svg" alt="logo" class="search-icon">   History</a>
-        <a href="#user"><img src="images/user-default.svg" alt="logo" class="search-icon">   User</a>
-        <a href="#maintenance"><img src="images/maintenance-default.svg" alt="logo" class="search-icon">   Maintenance</a>
-        <a href="#setting"><img src="images/setting-default.svg" alt="logo" class="search-icon">   Setting</a>
-      </div>
+    <div class="header">
+        <img id="menu" src="images/menu-bar.svg" alt="menu-bar">
+        <img id="logo" src="images/logo.svg" alt="logo">
+        <img id="search" src="images/search-icon.svg" alt="search">
+        <p id="searchtext">Search</p>
+        <img id="bell" src="images/notification-icon.svg" alt="notification-icon">
+        <img id="profilepic" src="images/profile.png" alt="profile">
+        <p id="johndoe">John Doe</p>
+        <img id="arrow" src="images/downward-arrow.svg" alt="arrow">
     </div>
-     
+
+    <div class="container">
+
+        <div class="sidebar">
+            <div class="side-item">
+                <img class="img" src="images/dashboard-default.svg" alt="dashboard">
+                <p id="d">Dashboard</p>
+            </div>
+
+            <div class="side-item">
+                <img class="img" src="images/graph-default.svg" alt="dashboard">
+                <p >Analysis</p>
+            </div>
+            <div class="side-item">
+                <img class="img" src="images/inbox-default.svg" alt="dashboard">
+                <p >Inbox</p>
+            </div>
+            <div class="side-item">
+                <img class="img" src="images/clock-default.svg" alt="dashboard">
+                <p>Hestory</p>
+            </div>
+            <div class="side-item">
+                <img class="img" src="images/user-default.svg" alt="dashboard">
+                <p >Users</p>
+            </div>
+            <div class="side-item">
+                <img class="img" src="images/maintenance-default.svg" alt="dashboard">
+                <p >Maintenance</p>
+            </div>
+            <div class="side-item">
+                <img class="img" src="images/setting-default.svg" alt="dashboard">
+                <p >Setting</p>
+            </div>
+
+        </div>
+        <div class="rightbar">
+            <h1>Dashboard</h1>
+
+            <div class="review">
+                <div class="item">
+                    <img src="./images/star.svg" alt="">
+                    <div class="review-item ">
+                        <h3>23,456</h3>
+                        <h5>New produce</h5>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./images/new-product.svg" alt="">
+                    <div class="review-item ">
+                        <h3>2345</h3>
+                        <h5>Added produce</h5>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./images/total-product.svg" alt="">
+                    <div class="review-item ">
+                        <h3>32,456</h3>
+                        <h5>Total Products</h5>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./images/dollar-filled.svg" alt="">
+                    <div class="review-item ">
+                        <h3>5678</h3>
+                        <h5>Today’s Sale</h5>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./images/money-bag.svg" alt="">
+                    <div class="review-item ">
+                        <h3>33,5342</h3>
+                        <h5>Total Sale</h5>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="images">
+                <div class="graph">
+                    <div class="headings">
+                        <h3>sale</h3>
+                        <div>
+                            <h4>yealy</h4>
+                            <h4>monthly</h4>
+                            <h4>weekly</h4>
+
+                        </div>
+                    </div>
+                    <img id="grap" src="./images/data-graph.png" alt="">
+                </div>
+                <div class="pie">
+                    <h2>Sales By Company</h2>
+                    <img id="pi" src="./images//pie-chart.svg" alt="">
+
+                </div>
+            </div>
+
+            <div class="expanse-table">
+                <div class="expanse-headings">
+                    <h3 id="invoice">invoices</h3>
+                    <a id="vie" href="">view all</a>
+                </div>
+            </div>
+
+            <table class="table">
+                <tr>
+                    <th>INVOICE</th>
+                    <th>COMPANY NAME</th>
+                    <th>EMAIL</th>
+                    <th>DUE DATE</th>
+                    <th>STATUS</th>
+                    <th>AMOUNT</th>
+                </tr>
+                <tr>
+                    <td>651535</td>
+                    <td>Public Adjusting Firm</td>
+                    <td>georgia.young@example.com</td>
+                    <td>24 May, 2020</td>
+                    <td class="paid">Paid</td>
+                    <td>$47,800</td>
+                </tr>
+                <tr>
+                    <td>558612</td>
+                    <td>Other</td>
+                    <td>jessica.hanson@example.com</td>
+                    <td>24 May, 2020</td>
+                    <td class="paid">Paid</td>
+                    <td>$98,000</td>
+                </tr>
+                <tr>
+                    <td>558612</td>
+                    <td>Vendor</td>
+                    <td>alma.lawson@example.com</td>
+                    <td>8 Sep, 2020</td>
+                    <td class="paid">Paid</td>
+                    <td>$20,900</td>
+                </tr>
+                <tr>
+                    <td>558612</td>
+                    <td>Property Management </td>
+                    <td>kenzi.lawson@example.com</td>
+                    <td>22 Oct, 2020</td>
+                    <td class="paid">Paid</td>
+                    <td>22 Oct, 2020</td>
+                </tr>
+                <tr>
+                    <td>651535</td>
+                    <td>Subcontractor Company</td>
+                    <td>jackson.graham@example.com</td>
+                    <td>1 Feb, 2020</td>
+                    <td class="failed">Failed</td>
+                    <td>$10,200</td>
+                </tr>
+                <tr>
+                    <td>653518/td>
+                    <td>Mortgage Company</td>
+                    <td>felicia.reid@example.com</td>
+                    <td>22 Oct, 2020</td>
+                    <td>Pending</td>
+                    <td>$12,600</td>
+                </tr>
+                <tr>
+                    <td>487441</td>
+                    <td>TPA</td>
+                    <td>dolores.chambers@example.com</td>
+                    <td>21 Sep, 2020</td>
+                    <td class="paid">Paid</td>
+                    <td>$11,170</td>
+                </tr>
+                <tr>
+                    <td>267400</td>
+                    <td>Fire Department</td>
+                    <td>nevaeh.simmons@example.com</td>
+                    <td>17 Oct, 2020</td>
+                    <td class="failed">Failed</td>
+                    <td>$28,000</td>
+                </tr>
+                <tr>
+                    <td>449003</td>
+                    <td>Insurance Carrier</td>
+                    <td>curtis.weaver@example.com</td>
+                    <td>21 Sep, 2020</td>
+                    <td class="paid">Paid</td>
+                    <td>$10,000</td>
+                </tr>
+               
+            </table>
+        </div>
+    </div>
+
 </body>
+
 </html>
